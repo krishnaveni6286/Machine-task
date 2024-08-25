@@ -1,0 +1,311 @@
+ /* index.css */
+
+/* Add margin and adjust the text color of the navbar */
+#nav-bar {
+    margin-top: 30px; /* 20px margin at the top */
+    margin-left: 80px; /* 50px margin on the left */
+    margin-right: 70px; /* 60px margin on the right */
+  }
+  
+  /* Change the text color of the navbar to violet */
+  .navbar-nav .nav-link,
+  .navbar-brand {
+    color: rgb(103, 31, 170) !important; /* Use !important to override Bootstrap's styles */
+    padding: 0;
+    font-weight: 600;
+   
+  }
+  .content{
+    margin-top: 100px;
+    margin-left: 105px;
+    
+  }
+  
+  .heading{
+    color: rgb(92, 32, 222);
+  }
+  .heading2{
+    color: orange;
+  }
+  .btn-outline-custom {
+    color: #6610f2;; /* Text color */
+    border: 2px solid #6610f2; /* Border color */
+  }
+  
+  .btn-outline-custom:hover {
+    background-color: rgb(92, 32, 222); /* Background color on hover */
+    color: white; /* Text color on hover */
+  }
+  .img-one{
+    margin-top: -280px;
+  }
+  .features{
+    margin-top: 600px;
+    margin-left: 105px;
+    margin-right: 70px;
+  }
+  .features img{
+    margin-top: 80px;
+
+  }
+  .para1{
+    margin-top: 90px;
+    margin-left: 490px;
+    font-size: larger;
+    font-weight: 600;
+  }
+  .para2{
+    margin-top: -15px;
+    margin-left: 490px;
+  }
+  .feature-one img{
+    margin-top: -90px;
+  }
+  .para3{
+    margin-top: 480px;
+    font-size: larger;
+    font-weight: 600;
+  }
+  .para4{
+    margin-top: -15px;
+  }
+  .image4 img{
+    margin-top:30px ;
+    margin-left: 50px !important;
+  }
+  .feature-two img{
+    margin-top: -20px;
+  }
+   .para5{
+    margin-top: 480px;
+    margin-left: 490px;
+    font-size: larger;
+    font-weight: 600;
+   
+  }
+  .para6{
+    margin-left: 490px;
+    margin-top: -15px;
+  }
+
+
+/* testimonal */
+.Testimonials{
+  margin-top: 100px;
+}
+
+
+.carousel-caption {
+  position: absolute;
+ top: 40px; 
+
+  text-align: center; 
+  left: 100%; 
+
+}
+
+.carousel-indicators {
+  position: absolute; 
+  top: 370px; 
+  left: 300px; 
+ 
+}
+  
+/* products */
+  .products{
+    display: inline-block;
+    margin-left: 90px; /* 50px margin on the left */
+    margin-right: 70px;
+  }
+  
+  .card{
+    margin-top: 30px;
+  }
+
+  form{
+    margin-top: -300px;
+    margin-left: 450px;
+}
+input,
+textarea {
+    width: 540px !important; /* Updated width to 500px */
+}
+
+.contact img{
+    margin-left: 50px;
+    margin-top: 30px;
+   
+}
+.contact h2{
+  margin-bottom: 60px;
+}
+.footer{
+  margin-top: 150px;
+  color: white;
+  background-image: linear-gradient(to right, #863dfa ,  rgb(79, 11, 225));
+  /* background-color: linear-gradient(to right,  #6610f2, rgb(92, 32, 222));  */
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 50px;
+  margin-left: 20px; /* 50px margin on the left */
+  margin-right: 20px;
+  display: flex;
+
+}
+.footer-content{
+  width: 410px;
+  margin-top: -35px;
+}
+.footer-content p,h5{
+  line-height: 10px;
+  /* font-size: 10px; */
+  font-size: small;
+}
+.footer-content h5{
+  margin-bottom: 20px;
+}
+
+/* Media queries for mobile view (max-width: 767px) */
+@media (max-width: 767px) {
+ 
+  #nav-bar {
+    margin-top: 15px; 
+    margin-left: 20px; 
+    margin-right: 10px; 
+  }
+
+  .navbar-nav .nav-link,
+  .navbar-brand {
+    font-size: 14px; /* Smaller font size for readability */
+  }
+
+  /* Content adjustments */
+  .content {
+    margin-top: 50px;
+    margin-left: 20px; /* Reduce left margin */
+    margin-right: 20px; /* Add right margin */
+  }
+
+  /* Heading adjustments */
+  .heading,
+  .heading2 {
+    font-size: 24px; /* Adjust heading size */
+    text-align: center; /* Center text for better alignment */
+  }
+
+  /* Button adjustments */
+  .btn-outline-custom {
+    font-size: 14px; /* Smaller text size */
+    padding: 8px 12px; /* Adjust padding for buttons */
+  }
+
+  /* Image adjustments */
+  .img-one {
+    margin-top: -1px; /* Adjust margin for images */
+    /* width: 110%; Ensure images are responsive */
+    float: center;
+    
+  }
+
+  /* Features adjustments */
+  .features {
+    margin-top: 40px; /* Reduced top margin */
+    margin-left: 20px; /* Reduced left margin */
+    margin-right: 20px; /* Reduced right margin */
+  }
+
+  .features img {
+    margin-top: 20px; /* Reduced margin */
+    width: 100%; /* Responsive width */
+  }
+
+  .para1,
+  .para3,
+  .para5 {
+    margin-left: 20px; /* Reduced left margin */
+    margin-right: 20px; /* Add right margin */
+    font-size: medium; /* Adjust font size */
+    text-align: justify; /* Justify text for better readability */
+  }
+
+  .para2,
+  .para4,
+  .para6 {
+    margin-left: 20px; /* Reduced left margin */
+    margin-right: 20px; /* Add right margin */
+  }
+
+
+  /* Testimonials adjustments */
+  .Testimonials {
+    margin-top: 40px; /* Reduced top margin */
+    margin-left: 20px; /* Adjusted for mobile view */
+    margin-right: 20px; /* Adjusted for mobile view */
+  }
+
+  .carousel-caption {
+    position: static; /* Default positioning for flexibility */
+    margin-top: -20px; /* Reduced top margin */
+    left: 0; /* Adjusted positioning */
+    transform: none; /* Reset transformations */
+  }
+
+  .carousel-indicators {
+    position: static; /* Allow indicators to flow naturally */
+    margin-top: 120px; /* Adjust margin */
+    text-align: center; /* Center align indicators */
+  }
+
+  /* Products adjustments */
+  .products {
+    display: block; /* Stack products vertically */
+    margin: 20px auto; /* Center products with auto margins */
+  }
+
+  .card {
+    margin-top: 20px; /* Reduce margin */
+    margin-left: 20px; /* Add left margin */
+    margin-right: 20px; /* Add right margin */
+  }
+
+  /* Form adjustments */
+  form {
+    margin-top: 20px; /* Adjust margin */
+    margin-left: 20px; /* Reduced left margin */
+    margin-right: 20px; /* Add right margin */
+  }
+
+  input,
+  textarea {
+    width: calc(100% - 40px) !important; /* Full width with padding consideration */
+  }
+
+  /* Contact adjustments */
+  .contact img {
+    margin-left: 0; /* Remove left margin */
+    width: 100%; /* Full width for responsiveness */
+  }
+
+  .contact h2 {
+    font-size: 20px; /* Smaller font size */
+    text-align: center; /* Center text */
+  }
+
+  /* Footer adjustments */
+  .footer {
+    flex-direction: column; /* Stack items vertically */
+    text-align: center; /* Center text */
+    padding: 20px; /* Adjust padding */
+    margin-left: 0; /* Remove left margin */
+    margin-right: 0; /* Remove right margin */
+  }
+
+  .footer-content {
+    width: 100%; /* Full width */
+    margin-top: 10px; /* Adjust margin */
+  }
+
+  .footer-content p,
+  .footer-content h5 {
+    font-size: small; /* Smaller font for mobile */
+  }
+}
