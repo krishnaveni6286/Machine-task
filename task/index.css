@@ -94,8 +94,8 @@
     /* margin-top:20px ;
     margin-left: 0px !important; */
     position: absolute;
-    top: 1600px;
-    left: 738px;
+    top: 1606px;
+    left: 686px;
   }
   .feature-two img{
     margin-top: -20px;
@@ -156,11 +156,11 @@
 
   form{
     margin-top: -300px;
-    margin-left: 450px;
+    margin-left: 500px;
 }
 input,
 textarea {
-    width: 540px !important; /* Updated width to 500px */
+    width: 440px !important; /* Updated width to 500px */
 }
 
 .contact{
@@ -261,7 +261,7 @@ textarea {
     /* margin-top:20px ;
     margin-left: 0px !important; */
     position: absolute;
-    top: 2000px;
+    top: 1970px;
     left: 71px;
   }
 
