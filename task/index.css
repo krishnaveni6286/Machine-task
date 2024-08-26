@@ -37,22 +37,24 @@
     border: none; /* Remove border */
   }
   
-  .btn-primary:hover {
+  /* .btn-primary:hover {
     background-color:white !important;
     color: rgb(92, 32, 222) !important; 
-  }
+  } */
   
   .btn-outline-secondary {
     color: rgb(92, 32, 222) !important; /* Text color */
     border: 0.4px solid rgb(92, 32, 222) !important; /* Border color */
   }
   
-  .btn-outline-secondary:hover {
+  /* .btn-outline-secondary:hover {
     background-color: rgb(92, 32, 222) !important; 
     color: white !important; 
-  }
+  } */
   .img-one{
-    margin-top: -280px;
+    margin-top: -300px;
+   margin-right: 70px;
+    
   }
   .features{
     margin-top: 600px;
@@ -86,11 +88,11 @@
     margin-top: -15px;
   }
   .image4 img{
-    margin-top:30px ;
-    margin-left: -60px !important;
-    /* position: absolute;
-    top: 1620px;
-    left: 740px; */
+    /* margin-top:20px ;
+    margin-left: 0px !important; */
+    position: absolute;
+    top: 1579px;
+    left: 738px;
   }
   .feature-two img{
     margin-top: -20px;
@@ -176,8 +178,8 @@ textarea {
   /* background-color: linear-gradient(to right,  #6610f2, rgb(92, 32, 222));  */
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 50px;
-  margin-left: 20px; /* 50px margin on the left */
-  margin-right: 20px;
+  margin-left: 20px; 
+  margin-right: 10px;
   display: flex;
 
 }
@@ -230,7 +232,7 @@ textarea {
   }
 
   .img-one {
-    margin-top: -1px; 
+    margin-top: 10px; 
      margin-left: 20px;
      margin-right: -20px;
     
@@ -246,11 +248,18 @@ textarea {
   }
 
   .feature-one img{
-    margin-top: -330px !important;
+    margin-top: -360px !important;
     margin-left: -60px;
   }
   .feature-two{
     margin-top: -400px;
+  }
+  .image4 img{
+    /* margin-top:20px ;
+    margin-left: 0px !important; */
+    position: absolute;
+    top: 2000px;
+    left: 71px;
   }
 
    .features img {
@@ -266,7 +275,7 @@ textarea {
     font-size: medium; 
     text-align: justify;
   }
-
+ 
   .para2,
   .para4,
   .para6 {
@@ -344,7 +353,7 @@ textarea {
     text-align: center; 
     padding: 20px;
     margin-left: 0; 
-    margin-right: 0; 
+    margin-right: -12px; 
   }
 
   .footer-content {
@@ -357,3 +366,22 @@ textarea {
     font-size: small; 
   }
 }
+
+/* _________________animation_____________ */
+/* .img-one, .float-start{
+  position: relative; 
+  animation: moveImage 5s infinite alternate; 
+}
+
+@keyframes moveImage {
+  0% {
+      left: 0; 
+  }
+  50% {
+      left: 40px; 
+  }
+  100% {
+      left: 0; 
+  }
+}
+ */
