@@ -1,10 +1,9 @@
- /* index.css */
 
-/* Add margin and adjust the text color of the navbar */
+
 #nav-bar {
-    margin-top: 30px; /* 20px margin at the top */
-    margin-left: 80px; /* 50px margin on the left */
-    margin-right: 70px; /* 60px margin on the right */
+    margin-top: 30px; 
+    margin-left: 80px; 
+    margin-right: 70px;
   }
   
   /* Change the text color of the navbar to violet */
@@ -15,6 +14,11 @@
     font-weight: 600;
    
   }
+  .nav-item:hover .nav-link {
+    text-decoration: underline;
+    text-decoration-color: rgb(103, 31, 170);
+}
+
   .content{
     margin-top: 100px;
     margin-left: 105px;
@@ -27,14 +31,25 @@
   .heading2{
     color: orange;
   }
-  .btn-outline-custom {
-    color: #6610f2;; /* Text color */
-    border: 2px solid #6610f2; /* Border color */
+  .btn-primary{
+    background-color: rgb(92, 32, 222) !important; /* Background color */
+    color: white !important; /* Text color */
+    border: none; /* Remove border */
   }
   
-  .btn-outline-custom:hover {
-    background-color: rgb(92, 32, 222); /* Background color on hover */
-    color: white; /* Text color on hover */
+  .btn-primary:hover {
+    background-color:white !important;
+    color: rgb(92, 32, 222) !important; 
+  }
+  
+  .btn-outline-secondary {
+    color: rgb(92, 32, 222) !important; /* Text color */
+    border: 0.4px solid rgb(92, 32, 222) !important; /* Border color */
+  }
+  
+  .btn-outline-secondary:hover {
+    background-color: rgb(92, 32, 222) !important; 
+    color: white !important; 
   }
   .img-one{
     margin-top: -280px;
@@ -60,6 +75,7 @@
   }
   .feature-one img{
     margin-top: -90px;
+    margin-left: -60px;
   }
   .para3{
     margin-top: 480px;
@@ -71,7 +87,10 @@
   }
   .image4 img{
     margin-top:30px ;
-    margin-left: 50px !important;
+    margin-left: -60px !important;
+    /* position: absolute;
+    top: 1620px;
+    left: 740px; */
   }
   .feature-two img{
     margin-top: -20px;
@@ -97,7 +116,7 @@
 
 .carousel-caption {
   position: absolute;
- top: 40px; 
+ top: 20px; 
 
   text-align: center; 
   left: 100%; 
@@ -106,9 +125,17 @@
 
 .carousel-indicators {
   position: absolute; 
-  top: 370px; 
+  top: 340px; 
   left: 300px; 
  
+}
+.carousel-control-prev{
+     margin-left: 70px;
+     margin-top: -90px;
+}
+.carousel-control-next{
+  margin-right: 70px;
+  margin-top: -90px;
 }
   
 /* products */
@@ -131,18 +158,21 @@ textarea {
     width: 540px !important; /* Updated width to 500px */
 }
 
+.contact{
+  margin-top: -6px;
+}
 .contact img{
     margin-left: 50px;
     margin-top: 30px;
    
 }
 .contact h2{
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 .footer{
   margin-top: 150px;
   color: white;
-  background-image: linear-gradient(to right, #863dfa ,  rgb(79, 11, 225));
+  background-image: linear-gradient(to right, #863dfa ,  rgb(35, 4, 172));
   /* background-color: linear-gradient(to right,  #6610f2, rgb(92, 32, 222));  */
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 50px;
@@ -188,90 +218,108 @@ textarea {
   /* Heading adjustments */
   .heading,
   .heading2 {
-    font-size: 24px; /* Adjust heading size */
-    text-align: center; /* Center text for better alignment */
+    font-size: 24px; 
+    text-align: center; 
+    
   }
 
   /* Button adjustments */
   .btn-outline-custom {
-    font-size: 14px; /* Smaller text size */
-    padding: 8px 12px; /* Adjust padding for buttons */
+    font-size: 14px; 
+    padding: 8px 12px;
   }
 
-  /* Image adjustments */
   .img-one {
-    margin-top: -1px; /* Adjust margin for images */
-    /* width: 110%; Ensure images are responsive */
-    float: center;
+    margin-top: -1px; 
+     margin-left: 20px;
+     margin-right: -20px;
     
   }
 
   /* Features adjustments */
+
   .features {
-    margin-top: 40px; /* Reduced top margin */
-    margin-left: 20px; /* Reduced left margin */
-    margin-right: 20px; /* Reduced right margin */
+    margin-top: 50px; 
+    margin-left: 20px; 
+    margin-right: 20px; 
+
   }
 
-  .features img {
-    margin-top: 20px; /* Reduced margin */
-    width: 100%; /* Responsive width */
+  .feature-one img{
+    margin-top: -330px !important;
+    margin-left: -60px;
   }
+  .feature-two{
+    margin-top: -400px;
+  }
+
+   .features img {
+    margin-top: 100px; 
+    width: 100%; 
+  } 
 
   .para1,
   .para3,
   .para5 {
-    margin-left: 20px; /* Reduced left margin */
-    margin-right: 20px; /* Add right margin */
-    font-size: medium; /* Adjust font size */
-    text-align: justify; /* Justify text for better readability */
+    margin-left: 20px; 
+    margin-right: 20px; 
+    font-size: medium; 
+    text-align: justify;
   }
 
   .para2,
   .para4,
   .para6 {
-    margin-left: 20px; /* Reduced left margin */
-    margin-right: 20px; /* Add right margin */
+    margin-left: 20px; 
+    margin-right: 20px; 
   }
 
 
   /* Testimonials adjustments */
   .Testimonials {
-    margin-top: 40px; /* Reduced top margin */
-    margin-left: 20px; /* Adjusted for mobile view */
-    margin-right: 20px; /* Adjusted for mobile view */
+    margin-top: 40px; 
+    margin-left: 20px; 
+    margin-right: 20px; 
   }
 
   .carousel-caption {
-    position: static; /* Default positioning for flexibility */
-    margin-top: -20px; /* Reduced top margin */
-    left: 0; /* Adjusted positioning */
-    transform: none; /* Reset transformations */
+    position: static; 
+    margin-top: -20px; 
+    left: 0; 
+    transform: none; 
   }
 
   .carousel-indicators {
-    position: static; /* Allow indicators to flow naturally */
-    margin-top: 120px; /* Adjust margin */
-    text-align: center; /* Center align indicators */
+    position: static; 
+    margin-top: 120px;
+    text-align: center; 
   }
+  .carousel-control-prev{
+    margin-left: 15px;
+    
+}
+.carousel-control-next{
+ margin-right: 15px;
+
+}
 
   /* Products adjustments */
   .products {
-    display: block; /* Stack products vertically */
-    margin: 20px auto; /* Center products with auto margins */
+    display: block; 
+    margin: 20px auto; 
   }
 
   .card {
-    margin-top: 20px; /* Reduce margin */
-    margin-left: 20px; /* Add left margin */
-    margin-right: 20px; /* Add right margin */
+    margin-top: 20px; 
+    margin-left: 20px; 
+    margin-right: 20px;
   }
 
   /* Form adjustments */
   form {
-    margin-top: 20px; /* Adjust margin */
-    margin-left: 20px; /* Reduced left margin */
-    margin-right: 20px; /* Add right margin */
+    margin-top: 20px; 
+    margin-left: 20px; 
+    margin-right: 20px; 
   }
 
   input,
@@ -281,31 +329,31 @@ textarea {
 
   /* Contact adjustments */
   .contact img {
-    margin-left: 0; /* Remove left margin */
-    width: 100%; /* Full width for responsiveness */
+    margin-left: 0; 
+    width: 100%; 
   }
 
   .contact h2 {
-    font-size: 20px; /* Smaller font size */
-    text-align: center; /* Center text */
+    font-size: 20px; 
+    text-align: center; 
   }
 
   /* Footer adjustments */
   .footer {
-    flex-direction: column; /* Stack items vertically */
-    text-align: center; /* Center text */
-    padding: 20px; /* Adjust padding */
-    margin-left: 0; /* Remove left margin */
-    margin-right: 0; /* Remove right margin */
+    flex-direction: column; 
+    text-align: center; 
+    padding: 20px;
+    margin-left: 0; 
+    margin-right: 0; 
   }
 
   .footer-content {
-    width: 100%; /* Full width */
-    margin-top: 10px; /* Adjust margin */
+    width: 100%;
+    margin-top: 10px; 
   }
 
   .footer-content p,
   .footer-content h5 {
-    font-size: small; /* Smaller font for mobile */
+    font-size: small; 
   }
 }
