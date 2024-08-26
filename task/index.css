@@ -35,6 +35,7 @@
     background-color: rgb(92, 32, 222) !important; /* Background color */
     color: white !important; /* Text color */
     border: none; /* Remove border */
+    margin-left: -10px;
   }
   
   /* .btn-primary:hover {
@@ -66,7 +67,7 @@
 
   }
   .para1{
-    margin-top: 90px;
+    margin-top: 110px;
     margin-left: 490px;
     font-size: larger;
     font-weight: 600;
@@ -83,15 +84,17 @@
     margin-top: 480px;
     font-size: larger;
     font-weight: 600;
+   
   }
   .para4{
     margin-top: -15px;
+    /* width: 530px; */
   }
   .image4 img{
     /* margin-top:20px ;
     margin-left: 0px !important; */
     position: absolute;
-    top: 1579px;
+    top: 1600px;
     left: 738px;
   }
   .feature-two img{
@@ -248,7 +251,7 @@ textarea {
   }
 
   .feature-one img{
-    margin-top: -360px !important;
+    margin-top: -390px !important;
     margin-left: -60px;
   }
   .feature-two{
@@ -368,20 +371,23 @@ textarea {
 }
 
 /* _________________animation_____________ */
-/* .img-one, .float-start{
+ 
+
+.img-one, .float-start{
   position: relative; 
-  animation: moveImage 5s infinite alternate; 
+  animation: moveImageVertical 8s infinite alternate; 
 }
 
-@keyframes moveImage {
+@keyframes moveImageVertical {
   0% {
-      left: 0; 
+      top: 0; 
   }
   50% {
-      left: 40px; 
+      top: 50px; 
   }
   100% {
-      left: 0; 
+      top: 0; 
   }
 }
- */
+
+
